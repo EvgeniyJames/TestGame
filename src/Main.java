@@ -1,6 +1,6 @@
 import WeaponDecorators.WeaponWithSpecialBullets;
 import Weapons.MyRifle;
-import res.Weapon;
+import Weapons.Weapon;
 
 
 public class Main {

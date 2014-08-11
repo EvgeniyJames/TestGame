@@ -1,6 +1,7 @@
 package WeaponDecorators;
 
-import res.Weapon;
+import Weapons.Weapon;
+
 
 public abstract class WeaponDecorator extends Weapon {
 

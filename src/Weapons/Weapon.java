@@ -1,4 +1,4 @@
-package res;
+package Weapons;
 
 public abstract class Weapon {
 	protected String description;

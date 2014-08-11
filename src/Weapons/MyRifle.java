@@ -1,6 +1,5 @@
 package Weapons;
 
-import res.Weapon;
 
 public class MyRifle extends Weapon {
 
