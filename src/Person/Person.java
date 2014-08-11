@@ -1,12 +1,12 @@
-package Character;
+package Person;
 
 import Weapons.Weapon;
 
-public class Character {
+public class Person {
 	private Weapon weapon;
 	private String name;
 	
-	public Character(String name){
+	public Person(String name){
 		this.name = name;
 	}
 	
