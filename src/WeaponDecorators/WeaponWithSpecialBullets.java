@@ -2,16 +2,15 @@ package WeaponDecorators;
 
 import res.Weapon;
 
-public class WeaponWithSpecialBullets extends Weapon {
+public class WeaponWithSpecialBullets extends WeaponDecorator {
 
 	public WeaponWithSpecialBullets(Weapon w){
-		
+		this.weapon = w;
 	}
 	
 	@Override
 	public String getDescription() {
-		// TODO Auto-generated method stub
-		return null;
+		return this.weapon.getDescription() + " + specail bullets";
 	}
 
 }
