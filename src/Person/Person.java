@@ -12,6 +12,7 @@ public class Person {
 	
 	public void eqipWeapon(Weapon w){
 		this.weapon = w;
+		System.out.println(this.name + " eqip " + this.weapon.getDescription());
 	}
 	
 	public void shoot(){
