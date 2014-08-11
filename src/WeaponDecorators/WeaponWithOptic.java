@@ -10,7 +10,7 @@ public class WeaponWithOptic extends WeaponDecorator {
 	}
 	
 	public String getDescription(){
-		return this.weapon.getDescription() + " + optical zoom";
+		return this.description + " + optical zoom";
 	}
 	
 }

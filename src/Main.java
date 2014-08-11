@@ -1,4 +1,5 @@
 import Person.Person;
+import WeaponDecorators.WeaponWithOptic;
 import WeaponDecorators.WeaponWithSpecialBullets;
 import Weapons.MyRifle;
 import Weapons.SniperRifle;
@@ -17,7 +18,7 @@ public class Main {
 		myPerson.eqipWeapon(sniperRifle);
 		myPerson.shoot();
 		
-		sniperRifle = new WeaponWithSpecialBullets(sniperRifle);
+		sniperRifle = new WeaponWithOptic(sniperRifle);
 		
 		myPerson.eqipWeapon(sniperRifle);
 		myPerson.shoot();
