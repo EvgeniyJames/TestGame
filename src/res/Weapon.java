@@ -1,7 +1,7 @@
 package res;
 
 public abstract class Weapon {
-	int damage;
+	protected int damage;
 	
-	abstract int atack();
+	public abstract int atack();
 }
